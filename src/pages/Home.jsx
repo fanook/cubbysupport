@@ -5,8 +5,8 @@ const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="container" style={{ paddingTop: '48px', textAlign: 'center' }}>
-      <div style={{ marginBottom: '40px' }}>
+    <div className="container" style={{ paddingTop: '48px' }}>
+      <div style={{ marginBottom: '40px', textAlign: 'center' }}>
         <h1 style={{ 
           fontSize: '36px', 
           fontWeight: '600',
@@ -29,8 +29,7 @@ const Home = () => {
         display: 'grid',
         gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
         gap: '20px',
-        marginTop: '40px',
-        textAlign: 'left'
+        marginTop: '40px'
       }}>
         <div style={{ 
           padding: '20px',
