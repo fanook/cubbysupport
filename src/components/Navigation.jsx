@@ -17,7 +17,16 @@ const Navigation = () => {
           justifyContent: 'space-between',
           alignItems: 'center'
         }}>
-          <div style={{ display: 'flex', gap: '32px' }}>
+          <div style={{ display: 'flex', gap: '32px', alignItems: 'center' }}>
+            <img 
+              src="/cubby-icon.svg" 
+              alt="Cubby" 
+              style={{ 
+                width: '24px', 
+                height: '24px',
+                marginRight: '8px'
+              }} 
+            />
             <Link to="/" className="nav-link">
               {t('home')}
             </Link>
